@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Start": {
+      "commandName": "Project",
+      "commandLineArgs": "\"D:\\landrope.devops\\mapup.cli\\pik4+5+6.json\"",
+      "ErrorString": "Invalid character after parsing property name. Expected ':' but got: ,. Path 'profiles['mapup.cli'].commandLineArgs', line 6, position 51."
+    }
+  }
+}

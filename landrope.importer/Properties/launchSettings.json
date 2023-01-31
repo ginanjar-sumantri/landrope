@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "landrope.importer": {
+      "commandName": "Project",
+      "commandLineArgs": "-i \"D:\\landrope\\excels-upd\\PIK 2+1000.xlsx\" -s \"FINAL TEMPLATE\" -m 4 -u -d landrope_ASGO"
+      //"commandLineArgs": "-i \"D:\\landrope\\excels-upd\\PIK 3 upd.xlsx\" -s \"FINAL TEMPLATE\" -m 4 -u -c >\"c:\\logs\\PIK 3-20200505.log\""
+      //"commandLineArgs": "-i \"D:\\landrope\\excels-upd\\PIK 2EXT LAMA.xlsx\" -s \"FINAL TEMPLATE\" -m 4 -u"
+    }
+  }
+}

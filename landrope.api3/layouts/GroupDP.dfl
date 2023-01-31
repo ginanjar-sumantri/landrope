@@ -1,0 +1,17 @@
+[
+{"visible":"true","editable":"true","group":"Utama","label":"Nomor","xtype":"Text","value":"#utama.nomor","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Utama","label":"Tanggal","xtype":"Date","value":"#utama.tanggal","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Utama","label":"Jumlah","xtype":"Number","value":"#utama.jumlah","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Utama","label":"Giro","xtype":"Text","value":"#utama.giro","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Lurah","label":"Nomor","xtype":"Text","value":"#lurah.nomor","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Lurah","label":"Tanggal","xtype":"Date","value":"#lurah.tanggal","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Lurah","label":"Jumlah","xtype":"Number","value":"#lurah.jumlah","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Lurah","label":"Giro","xtype":"Text","value":"#lurah.giro","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Mediator","label":"Nomor","xtype":"Text","value":"#mediator.nomor","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Mediator","label":"Tanggal","xtype":"Date","value":"#mediator.tanggal","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Mediator","label":"Jumlah","xtype":"Number","value":"#mediator.jumlah","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Mediator","label":"Giro","xtype":"Text","value":"#mediator.giro","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"Beban PBB","xtype":"Number","value":"#bebanPBB","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"Beban PPh","xtype":"Number","value":"#bebanPPh","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"Beban Lainnya","xtype":"Number","value":"#bebanLainnya","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""}
+]

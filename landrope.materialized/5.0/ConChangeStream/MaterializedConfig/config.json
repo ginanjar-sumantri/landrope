@@ -1,0 +1,140 @@
+[
+  {
+    "database": "landrope_dev",
+    "collection": "persils_v2",
+    "merges": [
+      {
+        "view": "Grouping_By_HGB",
+        "destination": "material_group_hgb",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "Grouping_By_PBT",
+        "destination": "material_group_pbt",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "pivot_base_m",
+        "destination": "material_pivot_base",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "pivot_girik_m",
+        "destination": "material_pivot_girik",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "pivot_hibah_m",
+        "destination": "material_pivot_hibah",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "pivot_hgb_m",
+        "destination": "material_pivot_hgb",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "pivot_shm_m",
+        "destination": "material_pivot_shm",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "pivot_shp_m",
+        "destination": "material_pivot_shp",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "status_base",
+        "destination": "material_status_base",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "status_girik",
+        "destination": "material_status_girik",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "status_hibah",
+        "destination": "material_status_hibah",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "status_hgb",
+        "destination": "material_status_hgb",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "status_shm",
+        "destination": "material_status_shm",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "status_shp",
+        "destination": "material_status_shp",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "persil_core_m",
+        "destination": "material_persil_core",
+        "key": "key",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_dev",
+    "collection": "bundles",
+    "merges": [
+      {
+        "view": "main_bundle_core_m",
+        "destination": "material_main_bundle_core",
+        "key": "key",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_dev",
+    "collection": "maps",
+    "merges": [
+      {
+        "view": "desaMapsProject",
+        "destination": "material_desa_map",
+        "key": "key",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_dev",
+    "collection": "persilMaps",
+    "merges": [
+      {
+        "view": "mapinfo_m",
+        "destination": "material_mapinfo",
+        "key": "key",
+        "specific": true
+      },
+      {
+        "view": "persilMapsProject",
+        "destination": "material_persil_map",
+        "key": "key",
+        "specific": true
+      }
+    ]
+  }
+]

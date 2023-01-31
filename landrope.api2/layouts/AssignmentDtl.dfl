@@ -1,0 +1,10 @@
+[
+{"visible":"true","editable":"true","group":"","label":"Bidang","xtype":"Select","value":"#keyPersil","options":"extras.optPersils","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+//{"visible":"true","editable":"true","group":"Rincian Biaya","label":"SPS","xtype":"Number","value":"#costs.nilaiSPS","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+//{"visible":"true","editable":"true","group":"Rincian Biaya","label":"Biaya Taktis","xtype":"Number","value":"#costs.taktis","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+//{"visible":"true","editable":"true","group":"Rincian Biaya","label":"Biaya Notaris","xtype":"Number","value":"#costs.notaris","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+//{"visible":"true","editable":"true","group":"Rincian Biaya","label":"Biaya Tanah","xtype":"Number","value":"#costs.tanah","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+//{"visible":"true","editable":"true","group":"Rincian Biaya","label":"Pajak","xtype":"Number","value":"#costs.pajak","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+//{"visible":"true","editable":"true","group":"Rincian Biaya","label":"Biaya Lain-lain","xtype":"Number","value":"#costs.lainnya","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+//{"visible":"true","editable":"false","group":"Rincian Biaya","label":"Total","xtype":"Number","value":"#costs.jumlah","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+]

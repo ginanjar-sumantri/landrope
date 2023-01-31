@@ -1,0 +1,143 @@
+﻿
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Peta</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="~/css/w3.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/lib/leaflet/dist/leaflet.css" rel="stylesheet" />
+	<link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" />
+	<link href="~/lib/font-awesome/css/solid.css" rel="stylesheet" />
+	<link href="~/lib/font-awesome/css/v4-shims.min.css" rel="stylesheet" />
+	<link href="~/lib/font-awesome/css/fontawesome.min.css" rel="stylesheet" />
+	<link href="~/lib/Leaflet-label/leaflet.label.css" rel="stylesheet" />
+	<link href="~/lib/Leaflet-EasyButton/easy-button.css" rel="stylesheet" />
+	<link href="~/lib/jqxwidgets/css/jqx.base.css" rel="stylesheet" />
+	@*<link href="~/lib/Leaflet-contextmenu/leaflet.contextmenu.min.css" rel="stylesheet" />*@
+	@*<link href="~/lib/smart/components/styles/smart.default.min.css" rel="stylesheet" />*@
+	<link href="~/css/site.css" rel="stylesheet" />
+
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/font-awesome/js/fontawesome.min.js"></script>
+	<script src="~/lib/leaflet/dist/leaflet-src.js"></script>
+	@*<script src="~/lib/Leaflet-Providers/leaflet-providers.js"></script>*@
+	<script src="~/lib/Leaflet-label/leaflet.label-src.js"></script>
+	<script src="~/js/spin.min.js"></script>
+	<script src="~/lib/Leaflet-Spin/leaflet.spin.js"></script>
+	<script src="~/lib/Leaflet-EasyButton/easy-button.js"></script>
+	@*<script src="~/lib/Leaflet-contextmenu/leaflet.contextmenu.min.js"></script>*@
+	<script src="~/lib/Leaflet.Control.Custom/Leaflet.Control.Custom.js"></script>
+	<script src="~/lib/jqxwidgets/js/jqxcore.js"></script>
+	<script src="~/lib/jqxwidgets/js/jqxbuttons.js"></script>
+	<script src="~/lib/jqxwidgets/js/jqxscrollbar.js"></script>
+	<script src="~/lib/jqxwidgets/js/jqxlistbox.js"></script>
+	<script src="~/lib/jqxwidgets/js/jqxcheckbox.js"></script>
+	<script src="~/lib/jqxwidgets/js/jqxswitchbutton.js"></script>
+	<script src="~/lib/jqxwidgets/js/jqxwindow.js"></script>
+	@*<script src="~/lib/smart/framework/smart.element.js"></script>
+		<script src="~/lib/smart/components/smart.button.js"></script>
+		<script src="~/lib/smart/components/smart.switchbutton.js"></script>
+		<script src="~/lib/smart/components/smart.scrollbar.js"></script>
+		<script src="~/lib/smart/components/smart.listbox.js"></script>*@
+	<script src="~/js/coloring.js"></script>
+	<script async defer
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcUe53xn_Vj7TrGpQ46N67hYNr9h9MhvM">
+	</script>
+	<!--
+	AIzaSyA5ka-0TfDOwbvnrxJpr2Q_7saN9FhxLhQ
+	AIzaSyAZaUgvw3YA1liuNWA7GpgIYJZy-P5jUAM">-->
+	<script src="~/lib/leaflet/dist/Leaflet.GoogleMutant.js"></script>
+</head>
+<body>
+	<script src="~/Home/Root"></script>
+	<div id="map" style="z-index:0">
+		@*<button class="w3-button w3-white w3-large w3-right w3-hide-large" style="z-index:255" onclick="w3_open()">&#9776;</button>*@
+	</div>
+	<div class="w3-sidebar w3-bar-block w3-collapse w3-animate-right w3-animate-right-out" style="width:280px;right:0;" id="sidebar">
+		<div id="panel">
+			<div style="text-align:right">
+				<button class="btn btn-info fas fa-arrow-right" style="width:30px;height:30px;padding:0;" onclick="w3_close()"></button>
+			</div>
+			<br />
+			@*<p><b>Pilihan Tampilan Peta</b></p>*@
+			<table style="border:none;width:100%">
+				<tr style="vertical-align:middle">
+					<td>Hanya Tampilkan Batas SK</td>
+					<td style="text-align:right">
+						<div id="showmode"></div>
+						@*<smart-switch-button id="showmode" style="height:18px;" onclick="selProChanged()"></smart-switch-button>*@
+					</td>
+				</tr>
+			</table>
+
+			<p>
+				@*Project<br />*@
+				@*<smart-list-box id="selpro" style="width:100%;height:250px;" selectionMode="oneOrManyExtended"
+													onclick="selProChanged()">
+					</smart-list-box>*@
+				<div id="selpro"></div>
+			</p>
+			@*<p><span id="namadesa" style="visibility:hidden"></span></p>
+				<p>
+					<button id="btn1" onclick="selProChanged()" style="visibility:hidden;">Kembali ke peta wilayah SK</button>
+				</p>
+				<p>
+					Pilih Desa<br />
+					<select id="selvil" style="width:calc(100% - 14px);">
+					</select>
+				</p>*@
+		</div>
+		<div id="legends">
+			<p><b>Legends</b></p>
+			<div id="leg_detail" style="display:block">
+				<table style="border:0px;width:100%;border-collapse:collapse">
+					<tr><td rowspan="2" class="color bebas" onclick="c_clicked(event)" id="c_6"></td><td class="legend">Sudah bebas/murni</td><td class="area" id="a_6"></td></tr>
+					<tr><td class="legend">&nbsp;&nbsp;&nbsp;<i>Transisi</i></td><td class="area" id="a_7"></td></tr>
+					<tr><td class="color belum-bebas-shm" id="c_1" onclick="c_clicked(event)"></td><td class="legend">Belum bebas, SHM</td><td class="area" id="a_1"></td></tr>
+					<tr><td rowspan="2" class="color hibah-belum-pbt" id="c_2" onclick="c_clicked(event)"></td><td class="legend">hibah, belum PBT</td><td class="area" id="a_2"></td></tr>
+					<tr><td class="legend">&nbsp;&nbsp;&nbsp;<i>Transisi</i></td><td class="area" id="a_8"></td></tr>
+					<tr><td class="color hibah-sudah-pbt" id="c_3" onclick="c_clicked(event)"></td><td class="legend">Hibah, sudah PBT</td><td class="area" id="a_3"></td></tr>
+					<tr><td class="color kampung" id="c_4" onclick="c_clicked(event)"></td><td class="legend">Kampung</td><td class="area" id="a_4"></td></tr>
+					<tr>
+						<td class="color" style="background-color:rgba(0,0,0,0); border:0; cursor:default!important">
+							<table style="border:0;width:100%;border-collapse:collapse">
+								<tr><td style="width:100%; border-bottom:solid 3px #0000ff"></td></tr>
+								<tr><td style="width:100%; border-top:solid 3px #0000ff"></td></tr>
+							</table>
+						</td>
+						<td class="legend">Batas SK</td>
+					</tr>
+					<tr><td class="color" style="background-color:rgba(0,0,0,0); border:0;cursor:default!important"></td><td class="legend">Total Luas</td><td class="area" id="a_total"></td></tr>
+				</table>
+			</div>
+			<div id="leg_sk" style="display:none">
+				<table style="border:0px;width:100%">
+					<tr><td class="color kulit-sk">&nbsp;</td><td class="legend">Wilayah SK</td></tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div id="login" style="display:none;height:auto;">
+		<div id="windowHeader">
+			<span>User Log In</span>
+		</div>
+		<div style="overflow: hidden;" id="windowContent">
+			@*<form>*@
+			<div class="login"><input id="username" type="text" class="login" placeholder="User Name" style="width: 100%" /></div>
+			<div class="login"><input id="password" type="password" class="login" placeholder="Password" style="width: 100%" /></div>
+			<div class="login">&nbsp;</div>
+			<div style="text-align:right;"><button id="submit" class="btn btn-light" onclick="doLogin()">Enter</button></div>
+			@*</form>*@
+		</div>
+	</div>
+	<script src="~/js/helpers.js"></script>
+	<script src="~/js/panel.js"></script>
+	<script src="~/js/map.js"></script>
+</body>
+</html>

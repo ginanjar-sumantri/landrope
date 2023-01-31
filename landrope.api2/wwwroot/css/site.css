@@ -1,0 +1,143 @@
+﻿:root{
+  --panel-width:300px;
+  --legend-height : 300px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#legends {
+  position: absolute;
+  right: 0;
+  top: calc(100% - 270px);
+  width: 100%;
+  height: 270px;
+  padding: 4px;
+  background-color: #000;
+  font: 11pt/1 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #b0b0b0
+}
+
+#panel {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: calc(100% - 270px);
+  padding: 6px 6px 6px 6px;
+  background-color: #fff;
+  font: 11pt/1 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #606060
+}
+
+.login {
+  /*background-color: #e0e0e0;*/
+  font: 11pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #404040;
+}
+
+div.login {
+  padding: 4px;
+}
+
+input.login {
+  padding: 4px;
+}
+
+/*tr {vertical-align:middle};*/
+td.legend {
+  margin:0;
+  padding:4px 0 4px 10px;
+  font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #b0b0b0
+}
+
+td.color {
+  width: 18px;
+  font-size: 1pt;
+  border: 1px solid #808080;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.bebas {
+  background-color:#0000ff;
+}
+
+  .bebas:hover {
+    background-color: #0000b0!important;
+  }
+
+.belum-bebas-shm {
+  background-color: #ff0000;
+}
+.belum-bebas-shm:hover {
+  background-color: #b00000!important;
+}
+
+.hibah-sudah-pbt {
+  background-color: #ffff00;
+}
+.hibah-sudah-pbt:hover {
+  background-color: #b0b000!important;
+}
+.hibah-belum-pbt {
+  background-color: #00ff00;
+}
+  .hibah-belum-pbt:hover {
+    background-color: #00b000 !important;
+  }
+.kampung {
+  background-color: #800080;
+}
+.kampung:hover {
+  background-color: #500050!important;
+}
+.bengkok-desa {
+  background-color: #800080;
+}
+  .bengkok-desa:hover {
+    background-color: #500050!important;
+  }
+.kulit-sk {
+  background-color: #fff;
+  cursor:default;
+}
+
+.inactive {
+  background-color: #000!important;
+}
+
+.inactive:hover {
+  background-color: #404040!important;
+}
+
+.area {
+  background-color: #202020;
+  color: #fff;
+  width: 90px;
+  height: 100%;
+  padding: 2;
+  text-align: right;
+  font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+select {
+  height: 24px;
+  color: #404040;
+}
+
+span.detail-link {
+  color: #4040ff;
+  cursor: pointer;
+}

@@ -1,0 +1,6 @@
+{
+    "urls": [
+        "http://10.10.1.80:7879/api/bundle/save-nextproc",
+        "http://10.10.1.80:7879/api/reporting/progress2"
+    ]
+}

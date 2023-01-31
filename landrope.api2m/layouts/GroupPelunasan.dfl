@@ -1,0 +1,10 @@
+[
+{"visible":"true","editable":"true","group":"Utama","label":"Nomor","xtype":"Text","value":"#utama.nomor","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Utama","label":"Tanggal","xtype":"Date","value":"#utama.tanggal","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Utama","label":"Jumlah","xtype":"Number","value":"#utama.jumlah","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Utama","label":"Giro","xtype":"Text","value":"#utama.giro","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Mediator","label":"Nomor","xtype":"Text","value":"#mediator.nomor","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Mediator","label":"Tanggal","xtype":"Date","value":"#mediator.tanggal","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Mediator","label":"Jumlah","xtype":"Number","value":"#mediator.jumlah","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Mediator","label":"Giro","xtype":"Text","value":"#mediator.giro","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""}
+]

@@ -1,0 +1,5 @@
+[
+	{"visible": "true","editable": "true","group": "Document Properties","label": "Jenis Dokumen","xtype": "Select","value": "#infoes.keyDT","options": "extras.optDocs","cascade": "mkey","dependency": "","swlabels": "","nullable": true,"inittext": ""},
+	{"visible": "true","editable": "true","group": "Document Properties","label": "Metadata","xtype": "Select","value": "#infoes.mkey","options": "extras.optMetas","cascade": "","dependency": "keyDT","swlabels": "","nullable": true,"inittext": ""},
+	{"visible": "true","editable": "true","group": "Document Properties","label": "Value","xtype": "Text","value": "#val","options": "","cascade": "","dependency": "","swlabels": "","nullable": true,"inittext": ""}
+]

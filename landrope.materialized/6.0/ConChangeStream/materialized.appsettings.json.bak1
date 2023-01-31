@@ -1,0 +1,10 @@
+{
+  "protocol": "mongodb",
+  "encoded": "False",
+  "server": "10.10.1.80:27017",
+  "uid": "sa",
+  "pwd": "M0ng0DB4dmin",
+  "ssl": "False",
+  "database": "landrope_dev",
+  "replica": ""
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>landrope.api2</name>
+    </assembly>
+    <members>
+        <member name="M:landrope.api2.Controllers.AssignController.FixDataNotaris">
+            <summary>
+            Perbaikan data notaris double
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:landrope.api2.Controllers.CategoryController.GetCategoryByBebasAndSegment(System.String,System.Nullable{landrope.common.StatusCategory},System.Nullable{System.Int32},System.Nullable{System.Int32})" -->
+        <!-- Badly formed XML comment ignored for member "M:landrope.api2.Controllers.CategoryController.GetListCategoryFollowUpMkt(System.String,System.String,APIGrid.AgGridSettings)" -->
+        <member name="M:landrope.api2.Controllers.CategoryController.SaveCategoriesBidangFollowUp(System.String,landrope.common.CategoriesFollowUpCore)">
+            <summary>
+            Save Kategori Bidang Follow Up
+            </summary>
+        </member>
+        <member name="M:landrope.api2.Controllers.CategoryController.GetFollowUpHistoryList(System.String,System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get List Category History for Persil Follow Up
+            </summary>
+        </member>
+        <member name="M:landrope.api2.Controllers.CategoryController.SaveFollowUpHistCat(System.String,landrope.common.CategoriesCore)">
+            <summary>
+            add follow up categories
+            </summary>
+        </member>
+        <member name="M:landrope.api2.Controllers.ReportController.GetSuratTugasBpn(System.String,System.String)">
+            <summary>
+            Get Data for Surat Tugas BPN
+            </summary>
+        </member>
+        <member name="M:landrope.api2.Controllers.ReportController.GetSuratTugasNonBPN(System.String,System.String)">
+            <summary>
+            Get Data for Surat Tugaas Non BPN
+            </summary>
+            
+        </member>
+        <member name="M:landrope.api2.Controllers.ReportController.GetTandaTerimaPaging(System.String,System.String,System.String,System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get Data for Tanda Terima Input Bundle Paging
+            </summary>
+        </member>
+        <member name="M:landrope.api2.Controllers.ReportController.GetTandaTerimaInputBundle(System.String,System.String,System.String,System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get Data for Tanda Terima Input Bundle CSV
+            </summary>
+        </member>
+        <member name="M:landrope.api2.Controllers.ReportController.GetRptTandaTerimaNotaris(System.String,System.String)">
+            <summary>
+            Get tanda terima notaris
+            </summary>
+        </member>
+        <member name="M:landrope.api2.Controllers.ReportController.GetSuratTugasNew(System.String,System.String)">
+            <summary>
+            Get Data for New Surat tugas
+            </summary>
+        </member>
+    </members>
+</doc>

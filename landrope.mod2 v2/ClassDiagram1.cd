@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="landrope.mod2.BerkasBase">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAEAIAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>classes\archives.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="arsip" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="landrope.mod2.Berkas">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>classes\archives.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="landrope.mod2.TandaTerima">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\archives.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="landrope.mod2.BerkasOther">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\archives.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="landrope.mod2.AlasHak">
+    <Position X="2.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAEAAEAAAAAAAAEAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\archives.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="landrope.mod2.KTP">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\archives.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="landrope.mod2.PBB">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAgAAAA=</HashCode>
+      <FileName>classes\archives.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="landrope.mod2.RiwayatArsip">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACBgIAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>classes\archives.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="transactions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="landrope.mod2.doctrx">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAAAAAAAAAEMAAAAAEAAAAAAAAIAAAQAAAAAAA=</HashCode>
+      <FileName>classes\archives.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

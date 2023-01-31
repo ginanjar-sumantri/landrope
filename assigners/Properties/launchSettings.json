@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "assigners": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": "true",
+      "applicationUrl": "https://0.0.0.0:17882"
+    }
+  }
+}

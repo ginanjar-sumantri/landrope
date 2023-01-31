@@ -1,0 +1,35 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "Default": "Data Source=10.10.1.80;Initial Catalog=landrope;Persist Security Info=True;User ID=sa;Password=GsA001;TrustServerCertificate=Yes"
+  },
+  "MailSetting": {
+    "DisplayName": "Landrope Notification",
+    "Host": "mail.agungsedayu.com",
+    //"Host": "10.10.10.81",
+    "Mail": "notif.landrope@agungsedayu.com",
+    "Username": "notif.landrope",
+    "Password": "g+_3vh9N",
+    "Port": 25
+  },
+  "Receivers": [
+    //"ginanjar.sumantri@agungsedayu.com",
+    //"ricky.pribadi@agungsedayu.com",
+    //"jasri.it@agungsedayu.com",
+    "muhammad.maulana@agungsedayu.com"
+  ],
+  "MailSettingSMTP": {
+    "Host": "10.10.10.81",
+    "Username": "notif.landrope",
+    "Password": "g+_3vh9N",
+    "Port": 587,
+    "ErrorPIC":  "alfin.wijaya@agungsedayu.com"
+  }
+}

@@ -1,0 +1,9 @@
+[
+{"visible":"true","editable":"true","group":"Hasil","label":"Nomor","xtype":"Text","value":"#hasil.nomor","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Hasil","label":"Tanggal","xtype":"Date","value":"#hasil.tanggal","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Hasil","label":"Tglinput","xtype":"Date","value":"#hasil.tglInput","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Hasil|Arsip","label":"Tanggal Masuk","xtype":"Date","value":"#hasil.arsip.tglMasuk","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Hasil|Arsip","label":"Penginput","xtype":"Select","value":"#hasil.arsip.keyEntering","options":"extras.optUsers","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"false","editable":"true","group":"Hasil|Arsip","label":"Transaksi","xtype":"Text","value":"#hasil.arsip.transactions","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"false","group":"Hasil|Arsip","label":"Tanggal Tercatat","xtype":"DateTime","value":"#hasil.arsip.created","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""}
+]

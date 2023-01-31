@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "bundle.importer": {
+      "commandName": "Project",
+      "commandLineArgs": "-s * -i \"D:\\landrope\\hibah outstanding oktober.xlsx\"",
+      "environmentVariables": {
+        "Key": "Value"
+      }
+    }
+  }
+}

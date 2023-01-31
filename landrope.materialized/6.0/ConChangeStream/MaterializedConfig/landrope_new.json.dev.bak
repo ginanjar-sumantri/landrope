@@ -1,0 +1,292 @@
+[
+  {
+    "database": "landrope_new",
+    "collection": "persils_v2",
+    "merges": [
+      {
+        "db": "landrope_dev",
+        "view": "view_persils_pradeal",
+        "destination": "persils_v2",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "Grouping_By_HGB",
+        "destination": "material_group_hgb",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "Grouping_By_PBT",
+        "destination": "material_group_pbt",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "pivot_base_m",
+        "destination": "material_pivot_base",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "pivot_girik_m",
+        "destination": "material_pivot_girik",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "pivot_hibah_m",
+        "destination": "material_pivot_hibah",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "pivot_hgb_m",
+        "destination": "material_pivot_hgb",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "pivot_shm_m",
+        "destination": "material_pivot_shm",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "pivot_shp_m",
+        "destination": "material_pivot_shp",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "status_base",
+        "destination": "material_status_base",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "status_girik",
+        "destination": "material_status_girik",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "status_hibah",
+        "destination": "material_status_hibah",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "status_hgb",
+        "destination": "material_status_hgb",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "status_shm",
+        "destination": "material_status_shm",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "status_shp",
+        "destination": "material_status_shp",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "persil_core_m",
+        "destination": "material_persil_core",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_new",
+    "collection": "bundles",
+    "merges": [
+      {
+        "db": null,
+        "view": "main_bundle_core_m",
+        "destination": "material_main_bundle_core",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": "landrope_dev",
+        "view": "view_pradeals_bridge",
+        "destination": "bundles",
+        "key": "key",
+        "urlendpoint": "http://10.10.1.80:7880/api/prabebas/reload-data",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_new",
+    "collection": "maps",
+    "merges": [
+      {
+        "db": null,
+        "view": "desaMapsProject",
+        "destination": "material_desa_map",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_new",
+    "collection": "persilMaps",
+    "merges": [
+      {
+        "db": null,
+        "view": "mapinfo_m",
+        "destination": "material_mapinfo",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "persilMapsProject",
+        "destination": "material_persil_map",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_new",
+    "collection": "graphables",
+    "merges": [
+      {
+        "db": "landrope_dev",
+        "view": "view_graph_pradeals",
+        "destination": "graphables",
+        "key": "key",
+        "urlendpoint": "http://10.10.1.80:7880/api/prabebas/reload-data",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_new",
+    "collection": "praDeals",
+    "merges": [
+      {
+        "db": "landrope_dev",
+        "view": null,
+        "destination": "praDeals",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_new",
+    "collection": "persil_categories",
+    "merges": [
+      {
+        "db": "landrope_dev",
+        "view": null,
+        "destination": "persil_categories",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_new",
+    "collection": "logBundle",
+    "merges": [
+      {
+        "db": "landrope_dev",
+        "view": null,
+        "destination": "logBundle",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_new",
+    "collection": "logDeal",
+    "merges": [
+      {
+        "db": "landrope_dev",
+        "view": null,
+        "destination": "logDeal",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_new",
+    "collection": "formPraBebas",
+    "merges": [
+      {
+        "db": "landrope_dev",
+        "view": null,
+        "destination": "formPraBebas",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope_new",
+    "collection": "followUpMarketing",
+    "merges": [
+      {
+        "db": "landrope_dev",
+        "view": null,
+        "destination": "followUpMarketing",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  }
+]

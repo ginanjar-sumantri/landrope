@@ -1,0 +1,28 @@
+[
+  {
+    "database": "orangbaik_from",
+    "collection": "categories",
+    "merges": [
+      {
+        "db": "orangbaik_to",
+        "view": "view_categories",
+        "destination": "categories",
+        "key": "key",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "orangbaik_to",
+    "collection": "categories",
+    "merges": [
+      {
+        "db": "orangbaik_from",
+        "view": "view_categories",
+        "destination": "categories",
+        "key": "key",
+        "specific": true
+      }
+    ]
+  }
+]

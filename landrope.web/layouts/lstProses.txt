@@ -1,0 +1,11 @@
+lstProses
+lstLahan
+lstJenis
+lstStatus
+optProjects
+optDesas
+optPenampungs
+optKSs
+optNotarists
+optCompanies
+optUsers

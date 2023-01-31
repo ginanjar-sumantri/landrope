@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>landrope.api3</name>
+    </assembly>
+    <members>
+        <member name="M:landrope.api3.Controllers.FollowUpController.GetListBidang(System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get Bidang yang akan di follow Up
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.FollowUpController.SaveFollowUp(System.String,System.String,landrope.common.FollowUpMarketingCore)">
+            <summary>
+            Save Follow Up Marketing Result
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.FollowUpController.GetFollowUpDoc(System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get List Bidang Follow Up Dokumen
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.FollowUpController.GetListDocumentToFollowUp(System.String,System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get Docuemnt List to Follow Up
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.FollowUpController.SaveFollowUpBidangBebas(System.String,landrope.common.FollowUpDocumentBidangCore)">
+            <summary>
+            Save Follow Up Bidang Bebas
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.FollowUpController.SaveFollowUpDoc(System.String,landrope.common.FollowUpDocumentCore)">
+            <summary>
+            Save Follow Up Document by Selected Operation
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.GetList(System.String,System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get List Pra Pembebasan
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.GetListDtl(System.String,System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get List Detail Pra Pembebasan
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.SaveHeader(System.String,System.String,landrope.common.PraPembebasanCore)">
+            <summary>
+            Saving Header
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.SaveDetails(System.String,System.String,landrope.common.DetailsPraBebasCore)">
+            <summary>
+            Save Detail Request
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.GetListDocs(System.String,System.String,System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get List Document Pre Bundle
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.GetListRequestReff(System.String,System.String,System.Boolean)">
+            <summary>
+            Get List Request for Refference
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.Step(System.String,landrope.common.PraBebasCommand)">
+            <summary>
+            Continue Flow for Heaader
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.StepDtl(System.String,landrope.common.PraBebasDetailCommand)">
+            <summary>
+            Continue Flow for Details
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.GetListBidang(System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get List Bidang to Match
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.MatchBidang(System.String,landrope.common.MatchBidangCore)">
+            <summary>
+            Select Matched Bidang
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.GetListReqDoc(System.String,System.String,System.String)">
+            <summary>
+            Get Form Dynamic for Edit Metadata
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.SaveResultDoc(System.String,System.String,System.String,landrope.common.RegisteredDocCore)">
+            <summary>
+            Save Metadata to Pre Bundle
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.GetDesaDdl(System.String)">
+            <summary>
+            Get All Desa Name
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.GetBidangFollowUp(System.String,System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get Bidang Follow Up
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:landrope.api3.Controllers.PraPembebasanController.ExportOldPreBundle" -->
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.GetBdidangByDeal(System.String,System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get All Bidang by its Request (DEAL Number) including its descendant Deal
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.CreateFormMeasurementRequest(System.String,landrope.common.MeasurmentReqCore)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.GetHistoryMeasurementRequest(System.String,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.CheckAndUpdatePreBundle(System.String,System.String,auth.mod.user)">
+            <summary>
+            Use to Check and  Transfer old PreBundle (in detail.infoes) to The Newest Model of PreBundle (in bundle collection)
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.TransferToNewPreBundle(landrope.mod3.PraPembebasan,landrope.mod3.DetailsPraBebas,System.IServiceProvider)">
+            <summary>
+            Transfer Pre Bundle Lama ke Pre Bundle Baru
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.PraPembebasanController.FixDataNotaris">
+            <summary>
+            Perbaikan data notaris double
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.ReportController.GetReportMemo(System.String,System.String,System.String)">
+            <summary>
+            Get Data for Memo Pembayaran
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.ReportController.GetReportStatusPerPembayaran(System.String,System.Boolean,APIGrid.AgGridSettings)">
+            <summary>
+            Get Data for Report Status per Pembayaran csv
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.ReportController.GetReportStatusPerPembayaranPaging(System.String,System.Boolean,APIGrid.AgGridSettings)">
+            <summary>
+            Get Data for Report Status per Pembayaran Paging
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.ReportController.GetReportBayarPerDeal(System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get Data for Report Pembayaran Per Deal CSV
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.ReportController.GetReportBayarPerDealPaging(System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get Data for Report Pembayaran Per Deal Paging
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.ReportController.GetRptLuasSisaOverlap(System.String)">
+            <summary>
+            Get Report luas sisa Overlap
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.ReportController.GetRptLuasSisaOverlapPaging(System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get Report luas sisa Overlap
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.ReportController.GetBebasNormGroupKecil(System.String,System.String,System.String,System.String)">
+            <summary>
+            Get Data For Report Belum Bebas Group Kecil (mudah / Sulit)
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.ReportController.GetBelumbebasNormGroupKecilPerBidang(System.String,System.String,System.String,System.String)">
+            <summary>
+            Get Data For Report Belum Bebas Group Kecil (mudah / Sulit) Per PIC
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.ReportController.GetReportMemoTanah(System.String,System.String,System.String)">
+            <summary>
+            Memo 1 Tanah / Pembayaran
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.CreateMapApprovalReq(System.String,System.String,landrope.common.MapApprovalReqCore)">
+            <summary>
+            Create New Approval Request
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.CreateMultipleMapApprovalReq(System.String,landrope.common.MultipleMapApprovalReq)">
+            <summary>
+            Create Request Multiple Bidang
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.GetDetailMap(System.String,System.String)">
+            <summary>
+            Get Request Map detail
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.GetLocations(System.String)">
+            <summary>
+            Get Locations
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.GetMapObjectByKeyDesa(System.String,System.String)">
+            <summary>
+            Get Map info by key Desa
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.GetMapByIdBidang(System.String,System.String)">
+            <summary>
+            Get Map Location By Id Bidang
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.GetHistoryState(System.String,System.String)">
+            <summary>
+            Get History Worklist by key request
+            </summary>
+            
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.GetKulitDesa(System.String,System.String)">
+            <summary>
+            Get Kulit Desa
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.GetListStateDetail(System.String,System.String)">
+            <summary>
+            Get List Detail State Request
+            </summary>
+            
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.SaveStateRequest(System.String,landrope.common.StateApprovalCore)">
+            <summary>
+            Save Header State Request
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.AddBidang(System.String,System.String,landrope.common.StateRequestCommad)">
+            <summary>
+            Save Detail State Request
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.GetListPersilForCategory(System.String,landrope.common.RequestState,APIGrid.AgGridSettings)">
+            <summary>
+            Get List Persil for State Request 
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.CreatePersilRequest(System.String,System.String,landrope.common.ReqPersilApprovalCore)">
+            <summary>
+            Create Request to Add New Bidang 
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.GetDataPersilToEdit(System.String,System.String,System.String)">
+            <summary>
+            Get Data Persil to be edited
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.EditRequestedPersil(System.String,System.String,landrope.common.ReqUpdatePersilApprovalCore)">
+            <summary>
+            Edit Persil Data in Request
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.CreateUpdatePersil(System.String,System.String,landrope.common.ReqUpdatePersilApprovalCore)">
+            <summary>
+            Create Request to Update Persil Data
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.GetListPersilToUpdate(System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get List Bidang to be Update
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.ValidatingPersilRequest(System.String,landrope.common.PersilApprovalCore)">
+            <summary>
+            Validating Requested Persil Data
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.GetListPersilParent(System.String,APIGrid.AgGridSettings)">
+            <summary>
+            Get List of Persil Parent
+            </summary>
+        </member>
+        <member name="M:landrope.api3.Controllers.UpdateRequestController.Step(System.String,landrope.common.UpdateRequestCommand)">
+            <summary>
+            Run The Flow to Next Step 
+            </summary>
+        </member>
+        <member name="T:landrope.api3.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:landrope.api3.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:landrope.api3.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

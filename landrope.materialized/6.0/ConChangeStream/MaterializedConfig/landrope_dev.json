@@ -1,0 +1,322 @@
+[
+  {
+    "database": "landrope",
+    "collection": "persils_v2",
+    "merges": [
+      {
+        "db": null,
+        "view": "vLastProduct",
+        "destination": "material_latest_product",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "Grouping_By_HGB",
+        "destination": "material_group_hgb",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "Grouping_By_PBT",
+        "destination": "material_group_pbt",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "pivot_base_m",
+        "destination": "material_pivot_base",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "pivot_girik_m",
+        "destination": "material_pivot_girik",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "pivot_hibah_m",
+        "destination": "material_pivot_hibah",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "pivot_hgb_m",
+        "destination": "material_pivot_hgb",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "pivot_shm_m",
+        "destination": "material_pivot_shm",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "pivot_shp_m",
+        "destination": "material_pivot_shp",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "status_base",
+        "destination": "material_status_base",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "status_girik",
+        "destination": "material_status_girik",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "status_hibah",
+        "destination": "material_status_hibah",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "status_hgb",
+        "destination": "material_status_hgb",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "status_shm",
+        "destination": "material_status_shm",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "status_shp",
+        "destination": "material_status_shp",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "persil_core_m",
+        "destination": "material_persil_core",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "rpt_bidang_deal",
+        "destination": "material_report_bidang_deal",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope",
+    "collection": "bundles",
+    "merges": [
+      {
+        "db": null,
+        "view": "vLastProduct",
+        "destination": "material_latest_product",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "main_bundle_core_m",
+        "destination": "material_main_bundle_core",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": "landrope_new",
+        "view": "view_pradeals_bridge",
+        "destination": "bundles",
+        "key": "key",
+        "urlendpoint": "https://land.agungsedayu.com:7880/api/prabebas/reload-data",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope",
+    "collection": "maps",
+    "merges": [
+      {
+        "db": null,
+        "view": "desaMapsProject",
+        "destination": "material_desa_map",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope",
+    "collection": "persilMaps",
+    "merges": [
+      {
+        "db": null,
+        "view": "mapinfo_m",
+        "destination": "material_mapinfo",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      },
+      {
+        "db": null,
+        "view": "persilMapsProject",
+        "destination": "material_persil_map",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope",
+    "collection": "graphables",
+    "merges": [
+      {
+        "db": "landrope_new",
+        "view": "view_graph_pradeals",
+        "destination": "graphables",
+        "key": "key",
+        "urlendpoint": "https://land.agungsedayu.com:7880/api/prabebas/reload-data",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope",
+    "collection": "praDeals",
+    "merges": [
+      {
+        "db": "landrope_new",
+        "view": null,
+        "destination": "praDeals",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope",
+    "collection": "persil_categories",
+    "merges": [
+      {
+        "db": "landrope_new",
+        "view": null,
+        "destination": "persil_categories",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope",
+    "collection": "logBundle",
+    "merges": [
+      {
+        "db": "landrope_new",
+        "view": null,
+        "destination": "logBundle",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope",
+    "collection": "logDeal",
+    "merges": [
+      {
+        "db": "landrope_new",
+        "view": null,
+        "destination": "logDeal",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope",
+    "collection": "formPraBebas",
+    "merges": [
+      {
+        "db": "landrope_new",
+        "view": null,
+        "destination": "formPraBebas",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope",
+    "collection": "bidangFollowUp",
+    "merges": [
+      {
+        "db": "landrope_new",
+        "view": null,
+        "destination": "bidangFollowUp",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  },
+  {
+    "database": "landrope",
+    "collection": "bayars",
+    "merges": [
+      {
+	"db" : null,
+        "view": "rpt_bidang_deal_from_bayar",
+        "destination": "material_report_bidang_deal",
+        "key": "key",
+        "urlendpoint": "",
+        "specific": true
+      }
+    ]
+  }
+]

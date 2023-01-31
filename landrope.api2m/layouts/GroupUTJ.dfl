@@ -1,0 +1,11 @@
+[
+{"visible":"true","editable":"true","group":"","label":"Tanggal","xtype":"Date","value":"#tanggal","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"Total","xtype":"Number","value":"#total","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Bayar|Non Kas","label":"Nomor","xtype":"Text","value":"#bayar.rfp.nomor","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Bayar|Non Kas","label":"Tanggal","xtype":"Date","value":"#bayar.rfp.tanggal","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Bayar|Non Kas","label":"Jumlah","xtype":"Number","value":"#bayar.rfp.jumlah","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Bayar|Non Kas","label":"Giro","xtype":"Text","value":"#bayar.rfp.giro","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Bayar|Kas","label":"Nomor","xtype":"Text","value":"#bayar.kas.nomor","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Bayar|Kas","label":"Tanggal","xtype":"Date","value":"#bayar.kas.tanggal","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"Bayar|Kas","label":"Jumlah","xtype":"Number","value":"#bayar.kas.jumlah","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""}
+]

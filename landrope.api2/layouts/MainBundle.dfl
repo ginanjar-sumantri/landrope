@@ -1,0 +1,7 @@
+[
+{"visible":"true","editable":"false","group":"","label":"Id Bidang","xtype":"Text","value":"#IdBidang","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"false","group":"","label":"Project","xtype":"Text","value":"#project","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"false","group":"","label":"Desa","xtype":"Text","value":"#desa","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"false","group":"","label":"Nomor Peta","xtype":"Text","value":"#noPeta","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"Storage","xtype":"Text","value":"#storkey","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+]

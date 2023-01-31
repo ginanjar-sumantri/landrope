@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>landrope.web</name>
+    </assembly>
+    <members>
+        <member name="M:landrope.web.Controllers.AdminController.FixDataNotaris">
+            <summary>
+            Perbaikan data notaris double
+            </summary>
+        </member>
+        <member name="M:landrope.web.Controllers.MasterController.GetWorkerByType(landrope.common.WorkerType)">
+            <summary>
+            Get Workers By Type
+            </summary>
+        </member>
+        <member name="M:landrope.web.Controllers.MasterController.GetWorkerByHierarchy(System.String,System.String)">
+            <summary>
+            Get Worker By they Parent
+            </summary>
+        </member>
+    </members>
+</doc>

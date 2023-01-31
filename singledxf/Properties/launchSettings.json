@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "singledxf": {
+      "commandName": "Project",
+      "commandLineArgs": "\"D:\\landrope\\singlemaps\\HGB 294 PT BANGUN KOSAMBI SUKSES.dxf\" > result.csv",
+      "workingDirectory": "D:\\landrope\\singledxf"
+    }
+  }
+}

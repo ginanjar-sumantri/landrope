@@ -1,0 +1,10 @@
+{
+  "protocol": "mongodb",
+  "encoded": "False",
+  "server": "10.10.1.132:27017",
+  "uid": "su",
+  "pwd": "SuperUser",
+  "ssl": "False",
+  "database": "landrope_dev",
+  "replica": ""
+}

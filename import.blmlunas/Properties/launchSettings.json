@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "import.blmlunas": {
+      "commandName": "Project",
+      "commandLineArgs": "-a localhost -d landrope_dev -f \"D:\\pembayaran tanah - belum lunas\\PIK 3 - 8 Desa\""
+    }
+  }
+}

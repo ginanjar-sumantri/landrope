@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "areaup.cli": {
+      "commandName": "Project",
+      "commandLineArgs": "-i \"d:\\landrope\\Data Luas 2020-03-11.xlsx\" -s overall"
+    }
+  }
+}

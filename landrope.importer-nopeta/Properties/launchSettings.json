@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "landrope.importer_nopeta": {
+      "commandName": "Project",
+      "commandLineArgs": "-i \"D:\\landrope\\excels-upd\\nomorpeta.xlsx\" -s \"nopeta\""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+[
+{"visible":"true","editable":"false","group":"","label":"Nomor","xtype":"Text","value":"#identifier","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"Project","xtype":"Select","value":"#keyProject","options":"extras.optProjects","cascade":"keyDesa","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"Desa","xtype":"Select","value":"#keyDesa","options":"extras.optDesas","cascade":"keyPTSK|keyPenampung","dependency":"keyProject","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"PT SK","xtype":"Select","value":"#keyPTSK","options":"extras.optPTSKs","cascade":"","dependency":"keyDesa","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"Penampung","xtype":"Select","value":"#keyPenampung","options":"extras.optPenampungs","cascade":"","dependency":"keyDesa","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"Kategori","xtype":"Select","value":"#category","options":"extras.lstCategories","cascade":"step","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"Proses","xtype":"Select","value":"#step","options":"extras.lstSteps","cascade":"","dependency":"category","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"Notaris","xtype":"Select","value":"#keyNotaris","options":"extras.optNotarists","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"","label":"PIC","xtype":"Select","value":"#keyPic","options":"extras.optPICs","cascade":"keyPic","dependency":"","swlabels":"","nullable":true,"inittext":""},
+//{"visible":"true","editable":"true","group":"","label":"Lama Proses (minggu)","xtype":"Numeric","value":"#weeks","options":"","cascade":"keyNotaris","dependency":"","swlabels":"","nullable":true,"inittext":"Lamanya waktu proses (dalam minggu)"},
+{"visible":"true","editable":"true","group":"","label":"Tidak Aktif","xtype":"Check","value":"#invalid","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""}
+]

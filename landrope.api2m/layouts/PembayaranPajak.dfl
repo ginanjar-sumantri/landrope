@@ -1,0 +1,6 @@
+[
+{"visible":"true","editable":"true","group":"PPh","label":"Jumlah","xtype":"Number","value":"#PPh.jumlah","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"PPh","label":"Validasi","xtype":"Date","value":"#PPh.validasi","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"BPHTB","label":"Jumlah","xtype":"Number","value":"#BPHTB.jumlah","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""},
+{"visible":"true","editable":"true","group":"BPHTB","label":"Validasi","xtype":"Date","value":"#BPHTB.validasi","options":"","cascade":"","dependency":"","swlabels":"","nullable":true,"inittext":""}
+]
